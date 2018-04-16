@@ -24,8 +24,6 @@ public class Code4Life {
 public static void main(String[] args) {
 // 1.
 	JOptionPane.showMessageDialog(null, "How many hours did you spent coding this week?");
-//2.
-	if ()
 		
 }
 
