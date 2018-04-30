@@ -23,9 +23,21 @@ public class Code4Life {
 	 */
 public static void main(String[] args) {
 // 1.
-	JOptionPane.showMessageDialog(null, "How many hours did you spent coding this week?");
-		
+String hoursCoding = JOptionPane.showInputDialog("How many hours did you code this week?");
+int cool;
+cool = Integer.parseInt(hoursCoding);
+
+	if (hoursCoding =="4 ")  {
+ 
+  System.out.println("You coded 3 times");
+	}
+	else {
+   System.out.println("You are a Code Ninja");
+	}
+	
+	
 }
+
 
 	private static void playBatmanTheme() {
 		try {
